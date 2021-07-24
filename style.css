@@ -1,4 +1,4 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Serif:ital,wght@1,700&display=swap');*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -113,26 +113,30 @@ html {
 
 #pic {
     display: flex;
+    margin-top: 20px;
 }
 
 #pic img {
     width: 275px;
-    height: 400px;
-    border-radius: 30%;
+    height: 100%;
 }
 
 #intro {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 10px;
+    padding-left: 10px;
     width: 100%;
+    top: 0;
 }
 
 #intro > p {
-    border: 3px solid black;
-    width: 70%;
+    width: 90%;
     font-size: 21px;
+    font-family: 'Fuggles', cursive;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+    vertical-align: middle;
 }
 
 #intro h2 {
