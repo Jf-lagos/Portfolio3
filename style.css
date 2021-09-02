@@ -46,12 +46,8 @@ html {
 } */
 
 #home {
-    display: flex;
-    flex-direction: column;
     background-color: black;
     height: 840px;
-    justify-content: center;
-    align-items: center;
     color: white;
 }
 
@@ -61,7 +57,7 @@ html {
     box-shadow: inset 270px 100px 450px black;
     align-items: center;
     top: 0;
-    background: url('./image/photo1.png') no-repeat center/cover;
+    background: url('./image/portrait.jpeg') no-repeat center/cover;
     height: 898px;
     width: 40%;
     opacity: .8;
