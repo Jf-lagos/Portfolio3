@@ -10,7 +10,7 @@ html {
 
 /* Navbar */
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ html {
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
-}
+} */
 
 #home {
     display: flex;
