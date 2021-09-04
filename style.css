@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Noto+Serif:ital,wght@1,700&display=swap');*{
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;600&family=Istok+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,7 +58,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .main {
@@ -67,19 +72,35 @@ html {
 .image_main {
   min-width: 100%;
   min-height: 100%;
-  position: relative; 
-  
+  position: absolute;
+  opacity: 0.9;
+}
+.title {
+  position: absolute;
+  width: 100%;
+  bottom: 280px;
+  z-index: 1;
+}
+.voila {
+  font-weight: 100;
+  color: white;
+  font-size: 4rem;
 }
 
-.headings_1 {
-    font-family: century;
-    font-size: 3rem;
+.headings_h2 {
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+}
+/*font-family: 'Istok Web', sans-serif;*/
+.headings_h1{ 
+    font-size: 100px;
+    font-weight: 800;
     text-align: center;
     color: white;
-    border: 1px solid green;
-    position: absolute; 
-    top: 300px;
-    width: 100%;
+ 
+
 }
 
 .btn {
@@ -89,9 +110,8 @@ html {
     color: white;
     outline: none;
     transition: .6 ease;
-    top: 420px;
-    left: 650px; 
-    position: absolute; 
+    position: absolute;
+    right: 670px;
 }
 
 .btn:hover {
