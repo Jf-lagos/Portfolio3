@@ -50,7 +50,7 @@ html {
     box-shadow: 0 0 10px white;
 } */
 
-#home {
+/* #home {
     background-color: black;
     min-height: 835px;
     height: 100%;
@@ -59,27 +59,30 @@ html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
+} */
 
 .main {
-    flex-shrink: 0;
+    
     min-width: 100%;
     min-height: 100%;
     min-height: 835px;
     border: 1px solid red;
+    display: flex;    
+    
 }
 
 .image_main {
   min-width: 100%;
   min-height: 100%;
-  position: absolute;
-  opacity: 0.9;
+  
 }
 .title {
   position: absolute;
   width: 100%;
-  bottom: 280px;
   z-index: 1;
+  text-align: center;
+  bottom: 300px;
+
 }
 .voila {
   font-weight: 100;
@@ -90,17 +93,14 @@ html {
 .headings_h2 {
   font-weight: 100;
   font-size: 4rem;
-  text-align: center;
   color: white;
 }
 /*font-family: 'Istok Web', sans-serif;*/
 .headings_h1{ 
     font-size: 100px;
     font-weight: 800;
-    text-align: center;
     color: white;
- 
-
+  
 }
 
 .btn {
@@ -110,8 +110,15 @@ html {
     color: white;
     outline: none;
     transition: .6 ease;
-    position: absolute;
-    right: 670px;
+
+    
+}
+
+@media screen and (min-width: 500px){
+  .headings_h1 .headings_h2 .btn{
+    display: block;
+      width: 100%;
+  }
 }
 
 .btn:hover {
@@ -181,6 +188,7 @@ html {
     color: white;
     align-items: center;
     padding: 10px;
+    border: 1px solid green;
 }
 
 
