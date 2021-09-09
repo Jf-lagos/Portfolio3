@@ -77,37 +77,38 @@ desktop = 1200
   width: auto;
 }
 
-
- @media (max-width:1400px) {
+ @media screen and (max-width:1400px) {
   .main {
     background-position: center center;
     height: 1370px;
+    }
   }
- @media (max-width:1000px) {
+ @media screen and (max-width:1000px) {
   .main {
     background-position: center center;
     height: 1170px;
+    }
   }
-@media (max-width:767px) {
+@media screen and (max-width:767px) {
   .main {
     background-position: center center;
     height: 820px;
+    }
   }
 
-@media (max-width:576px) {
+@media screen and (max-width:576px) {
   .main {
     height: 820px;
-    
+    }
   } 
 
 .title {
   position: absolute;
   width: 100%;
-  
   text-align: center;
   bottom: 300px;
-
 }
+
 .voila {
   font-weight: 100;
   color: white;
