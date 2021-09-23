@@ -73,7 +73,7 @@ desktop = 1200
   background-size: cover;
   background-position: center center;
   position: relative;
-  height: 900px;
+  min-height: 900px;
   width: auto;
 }
 
@@ -207,7 +207,7 @@ desktop = 1200
 /* Project Section */
 
 .featured_projects {
-  padding: 120px 0px 50px 0px;
+  padding: 100px 0px 50px 0px;
   font-size: 30px;
   font-weight: 100;
 }
@@ -228,14 +228,15 @@ desktop = 1200
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    border: 1px solid red;
+    
+    margin: 0px 60px 0px 60px;
     
 }
 
 .gallery img {
-    width: 420px;
-    height: 270px;
-    margin: 5px;
+    width: 100%;
+    min-height: 250px;
+
 }
 
 /* Images effects */
@@ -261,10 +262,13 @@ desktop = 1200
   }
   
   .container{
-    padding: 1em 0;
+    padding: 0 1em;
     float: left;
     width: 50%;
+    
+    margin-bottom: 35px;
   }
+  
   @media screen and (max-width: 640px){
     .gallery .container{
       display: block;
@@ -279,7 +283,7 @@ desktop = 1200
   }
   
 
-  .content {
+/*   .content {
     position: relative;
     overflow: hidden;
   }
@@ -349,7 +353,7 @@ desktop = 1200
   
   .fadeIn-left{
     left: 20%;
-  }
+  } */
 /* Contact Section */
 
 #contact {
