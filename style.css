@@ -127,7 +127,7 @@ desktop = 1200
   font-size: 4rem;
   color: white;
 }
-/*font-family: 'Istok Web', sans-serif;*/
+
 .headings_h1{ 
     font-size: 100px;
     font-weight: 800;
@@ -193,6 +193,10 @@ desktop = 1200
     width: 100%;
     min-height: 250px;
 
+}
+
+.project_title {
+  border: 1px solid red;
 }
 
 /* Images effects */
