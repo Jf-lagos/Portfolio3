@@ -195,8 +195,53 @@ desktop = 1200
 
 }
 
+.gallery img:hover {
+  background-color: white;
+  box-shadow: 0 0 5px white, 0 0 20px white, 0 0 25px white;
+}
+
 .project_title {
-  border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+.project_description {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.project_span {
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.div_button {
+    text-align: center;
+}
+
+.button_project {
+    margin-top: 6px;
+    padding: 2px 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6 ease;
+}
+
+.button_project:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
 }
 
 /* Images effects */
@@ -214,18 +259,10 @@ desktop = 1200
     font-family: 'Raleway', sans-serif;
   }
   
-  .main-title{
-    color: #2d2d2d;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 0.7em 0;
-  }
-  
   .container{
     padding: 0 1em;
     float: left;
     width: 50%;
-    
     margin-bottom: 35px;
   }
   
