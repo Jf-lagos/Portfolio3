@@ -235,16 +235,18 @@ desktop = 1200
 
 .div_button {
     text-align: center;
+    margin-top: 8px;
 }
 
 .button_project {
-    margin-top: 6px;
     padding: 2px 8px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
     outline: none;
     transition: .6 ease;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 .button_project:hover {
