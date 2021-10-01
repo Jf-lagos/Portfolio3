@@ -69,7 +69,7 @@ desktop = 1200
 */
 
 .main {
-  background: url('./image/portrait_1.jpeg') no-repeat;
+  background: url('./image/background_1.jpeg') no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -114,6 +114,7 @@ desktop = 1200
     color: rgb(233, 178, 0);
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
+    padding-bottom: 20px;
   }
   
   .btn {
@@ -123,7 +124,8 @@ desktop = 1200
     color: white;
     outline: none;
     transition: .6 ease;
-     
+    text-decoration: none;
+    font-size: 12px;
   }
 
 .title_span {
@@ -143,7 +145,7 @@ desktop = 1200
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 300px;
+    bottom: 400px;
 }
 
 
@@ -520,3 +522,5 @@ desktop = 1200
   box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
   font-weight: bold;
 }
+
+/* https://preview.colorlib.com/#rezume */
